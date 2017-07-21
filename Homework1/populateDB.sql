@@ -1,0 +1,43 @@
+use homework_1;
+
+INSERT INTO developers (DEVELOPER_NAME) 
+VALUES ('Vasya');
+
+INSERT INTO developers (DEVELOPER_NAME) 
+VALUES ('Tanya');
+
+INSERT INTO developers (DEVELOPER_NAME) 
+VALUES ('Olya');
+
+INSERT INTO developers (DEVELOPER_NAME) 
+VALUES ('Inna');
+
+SELECT * FROM developers;
+
+INSERT INTO skills (SKILL_NAME) VALUES ('Java');
+INSERT INTO skills (SKILL_NAME) VALUES ('C++');
+INSERT INTO skills (SKILL_NAME) VALUES ('SQL');
+INSERT INTO skills (SKILL_NAME) VALUES ('Hibernate');
+INSERT INTO skills (SKILL_NAME) VALUES ('HTTP');
+INSERT INTO skills (SKILL_NAME) VALUES ('Maven');
+INSERT INTO skills (SKILL_NAME) VALUES ('Github');
+
+SELECT * FROM skills;
+
+INSERT INTO companies (COMPANY_NAME) VALUES ('Romashka');
+INSERT INTO companies (COMPANY_NAME) VALUES ('Vasilek');
+INSERT INTO companies (COMPANY_NAME) VALUES ('Mimoza');
+
+SELECT * FROM companies;
+
+INSERT INTO customers (CUSTOMER_NAME) VALUES ('customer1');
+INSERT INTO customers (CUSTOMER_NAME) VALUES ('customer2');
+INSERT INTO customers (CUSTOMER_NAME) VALUES ('customer3');
+
+SELECT * FROM customers;
+
+INSERT INTO projects (PROJECT_NAME, COMPANY_ID, CUSTOMER_ID) VALUES ('PROJECT1', 1, 1);
+INSERT INTO projects (PROJECT_NAME, COMPANY_ID, CUSTOMER_ID) VALUES ('PROJECT2', 2, 2);
+INSERT INTO projects (PROJECT_NAME, COMPANY_ID, CUSTOMER_ID) VALUES ('PROJECT3', 3, 3);
+
+SELECT * FROM projects;
